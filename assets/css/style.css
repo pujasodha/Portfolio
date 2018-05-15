@@ -1,0 +1,87 @@
+body {
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    background-color: #FAECEB
+}
+
+#logo {
+    height: 140px;
+    padding: 20px 40px;
+}
+
+.navlist {
+    padding: 35px;
+    margin-right: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.5em;
+}
+
+#mobile-demo.sidenav {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 3.0em;
+    color: black;
+}
+
+.z-depth-3 {
+    height: 140px;
+}
+
+h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    /* margin-left: 50px */
+}
+
+h5 {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.circle {
+    height: 300px;
+    width: 275px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+h5 {
+    margin: 30px 200px;
+}
+
+.about {
+    text-align: justify;
+    margin: 0px 250px;
+    /* font-weight: bold; */
+    font-size: 1.1em;
+  
+}
+
+
+.skills {
+    margin: 0px 200px;
+    color: #545871;
+    font-size: 1.2em
+}
+
+#skillimage {
+    height: 50px;
+    width: 50px
+}
+
+#portfolio {
+    background-color: #DADBE7; 
+    color: #c37e7b
+}
+
+
+#contact {
+    color: #545871
+
+}
+
+
+#social {
+ background-color: #DADBE7;
+     color: #c37e7b
+}
+
