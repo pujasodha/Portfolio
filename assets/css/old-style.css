@@ -1,0 +1,109 @@
+body {
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    background-color: #FAECEB
+}
+
+#logo {
+    height: 140px;
+    padding: 20px 40px;
+}
+
+.navlist {
+    padding: 35px;
+    margin-right: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.5em;
+}
+
+#mobile-demo.sidenav {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 3.0em;
+    color: black;
+}
+
+.z-depth-3 {
+    height: 140px;
+}
+
+h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    /* margin-left: 50px */
+}
+
+
+#me {
+    height: 300px;
+    width: 275px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+h4 {
+    /* margin: 30px 200px; */
+    text-align: center;
+    padding: 30px 0px;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+.about {
+    text-align: center;
+    margin: 0px 30px;
+    /* font-weight: bold; */
+    font-size: 1.1em;
+
+}
+
+#skillstext {
+    /* padding: 10px; */
+    /* text-align: center; */
+}
+
+.skills {
+    /* margin-left: 100px; */
+    color: #545871;
+    font-size: 1.2em;
+
+}
+
+#skillimage {
+    height: 50px;
+    width: 50px;
+    /* text-align: center; */
+}
+
+
+#portfolio {
+    background-color: #DADBE7;
+    color: #c37e7b
+}
+
+.card {
+    height: auto;
+    width: auto;
+    margin: 30px;
+}
+
+/* .card-image {
+    height: 300px
+} */
+
+#contact {
+    color: #545871
+}
+
+#social {
+    background-color: #DADBE7;
+    color: #c37e7b;
+
+}
+
+.circle {
+    height: 140px;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+}
