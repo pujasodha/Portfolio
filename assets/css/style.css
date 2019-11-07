@@ -15,13 +15,24 @@ h1,
 .section-header {
     display: flex;
     flex-direction: column;
-    margin: 2em 10em;
     font-size: 1.2em;
+    margin: 1em;
     font-weight: bold;
 
 }
 
-.skills {
-    padding-left: 10rem;
+.section-description {
     font-weight: normal;
+    margin: 1em;
+}
+
+@media only screen and (min-width: 600px) {
+    .section-header {
+        margin: 1em 2em 0 10em;
+    }
+
+    .skills {
+        margin: 1em 10em
+    }
+
 }
