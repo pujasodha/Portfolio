@@ -1,30 +1,86 @@
 body {
     color: black;
-    font-family: 'Oswald', sans-serif;
-    background-color: #FAECEB
+    font-family: 'Tajawal',
+        sans-serif;
+    background-image: linear-gradient(to bottom right, #f8f5fa, #f3e5f9);
 }
 
-h1,
+/*  NAV BAR */
+nav,
+.nav-wrapper {
+    color: black;
+    background-color: white;
+}
+
+
+nav ul a {
+    color: black;
+}
+
+/* HOME PAGE */
+.main-header {
+    padding: 15% 0 20%
+}
+
+.quick-bio {
+    display: flex;
+    font-size: 2em;
+    justify-content: end;
+}
+
+.section-title {
+    color: rgba(0, 0, 0, 0.728);
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#about {
+    padding-bottom: 20%;
+}
+
+.self-image {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+
+.about-text {
+    font-size: 1.5em;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    padding-top: 2em;
+}
+
+
+/* RESUME */
+.resume-title,
 .contact-info {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 1em;
 }
 
 .section-header {
     display: flex;
     flex-direction: column;
-    font-size: 1.2em;
-    margin: 1em;
+    font-size: 1.5em;
+    margin: 2em;
     font-weight: bold;
-
 }
 
 .section-description {
+    font-size: 1em;
     font-weight: normal;
     margin: 1em;
 }
+
+
+
+/* SKILLS */
 
 @media only screen and (min-width: 600px) {
     .section-header {
