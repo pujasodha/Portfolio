@@ -14,57 +14,66 @@
 
 <body>
     <!--                        NAVIGATION                      -->
-    <nav class='z-depth-3'>
-        <div class="nav-wrapper " style='background-color: white;'>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger black-text">
-                <i class="material-icons">menu</i>
-            </a>
-            <ul class="left hide-on-med-and-down">
-                <li>
-                    <a href=" index.html" class='navlist' ">Home</a>
-                </li> 
-                
-                <li>
-                    <a href=" #about" class='navlist' class="back-text">About</a>
-                </li>
+    <div class='navbar-fixed'>
+        <nav class='z-depth-3'>
+            <div class="nav-wrapper " style='background-color: white;'>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger black-text">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="left hide-on-med-and-down">
+                    <li>
+                        <a href=" index.html" class='navlist' ">Home</a>
+                    </li> 
+                    
+                    <li>
+                        <a href=" #about" class='navlist anchor-list' class="back-text">About</a>
+                    </li>
 
-                <li>
-                    <a href=" #portfolio" class='navlist' class="black-text">Portfolio</a>
-                </li>
+                    <li>
+                        <a href="#skills" class='navlist anchor-list' class="black-text">Skills</a>
+                    </li>
 
-                <li>
-                    <a href="#social" class='navlist' class="black-text">Social</a>
-                </li>
-                <li>
-                    <a href="./resume.html" class='navlist' class="black-text">Resume</a>
-                </li>
-            </ul>
-            <ul class="right hide-on-med-and-down">
-                <li>
-                    <a href="mailto:pujasodha">Email Me!</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+                    <li>
+                        <a href="#portfolio" class='navlist anchor-list' class="black-text">Portfolio</a>
+                    </li>
+
+                    <li>
+                        <a href="#connect" class='navlist anchor-list' class="black-text">Connect</a>
+                    </li>
+                    <li>
+                        <a href="./resume.html" class='navlist' class="black-text">Resume</a>
+                    </li>
+                </ul>
+                <ul class="right hide-on-med-and-down">
+                    <li style="padding-right: 10px">
+                        <a href="mailto:pujasodha">Email</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
     <!-- SIDE NAV BAR -->
     <ul class="sidenav" id="mobile-demo">
         <li>
             <a href="index.html">Home</a>
         </li>
         <li>
-            <a href="#portfolio">Portfolio</a>
+            <a href="#about">About</a>
         </li>
         <li>
-            <a href="#contact">Contact</a>
+            <a href="#skills">Skills</a>
         </li>
         <li>
-            <a href="#social">Social</a>
+            <a href="#portfolio">Portfoli</a>
+        </li>
+        <li>
+            <a href="#connect">Connect</a>
         </li>
         <li>
             <a href="./resume.html">Resume</a>
         </li>
         <li>
-            <a href="mailto:pujasodha">Email Me!</a>
+            <a href="mailto:pujasodha">Email</a>
         </li>
     </ul>
 
@@ -88,29 +97,37 @@
         </div>
     </div>
 
-    </div>
-
 
     <!--                           ABOUT ME                          -->
-    <div id="about" class='row'>
-        <div class='section-title'>
-        </div><br>
-        <div class="self-image">
-            <img src="./assets/images/puja4.JPG" alt="Puja running a beach" class='self-image' width="30%" height="30%">
-        </div>
+    <div id="about" class='container'>
+        <div class='row'>
+            <div class='section-title'>
+                About Me
+                <hr>
+            </div>
+            <div class="self-image">
+                <img src="./assets/images/puja4.JPG" alt="Puja running a beach" class='self-image' width="45%"
+                    height="45%">
+            </div>
 
-        <div class="about-text">
-            <p>I'm a full stack developer currently residing
-            in Southern California. Programming, to me, is one of the greatest forms of expression. I have a passion for
-            designing and developing responsive websites that fills unknown needs in the world.</p>
-        
-            <p>As fast as technology is moving, I love a challenege and I think one of the greatest things about being a
-            developer is that the learning never ends. When I'm not working on a project, I'll spend my time reading
-            articles or taking an online course.</p>
-            
-            <p>Aside from coding - I enjoy photography, traveling, spending time with family & friends, and of course the
-            occasional taco tuesday</p>
+            <div class="about-text">
+                <p>I'm a full stack developer in JavaScript and Ruby currently residing
+                    in Southern California. Programming, to me, is one of the greatest forms of expression. I have a
+                    passion
+                    for
+                    designing and developing responsive websites that fills unknown needs in the world.</p>
 
+                <p>As fast as technology is moving, I love a challenege and I think one of the best things about
+                    being a
+                    developer is that the learning never ends. When I'm not working on a project, I'll spend my time
+                    reading
+                    articles or taking an online course.</p>
+
+                <p>Aside from coding - I enjoy photography, traveling, spending time with family & friends, and of
+                    course
+                    the
+                    occasional taco tuesday</p>
+            </div>
         </div>
     </div>
 
@@ -118,16 +135,172 @@
 
     <!--                           SKILLS                          -->
 
+    <div id="skills">
+        <div class='container'>
+            <div class='row'>
+                <div class='section-title' style="padding-bottom: 20px">
+                    SKILLS
+                    <hr>
+                </div>
+            </div>
+
+            <div class='row'>
+
+                <div class="skill-title col s12 m6 l3">
+                    Languages
+                    <img src="assets/images/html.png" alt="html5" class="circle tooltipped" data-tooltip="HTML5"
+                        id="skillimage">
+                    <img src="assets/images/css3.png" alt="css3" class="circle tooltipped" data-tooltip="CSS3"
+                        id="skillimage">
+                    <img src="assets/images/js.png" alt="js" class="circle tooltipped" data-tooltip="JavaScript"
+                        id="skillimage">
+                    <img src="assets/images/ruby.png" alt="ruby" class="circle tooltipped" data-tooltip="Ruby"
+                        id="skillimage">
+
+                </div>
+                <div class="skill-title col s12 m6 l3">
+                    Front End
+                    <img src="assets/images/react.png" alt="react" class="circle tooltipped" data-tooltip="ReactJS"
+                        id="skillimage">
+                    <img src="assets/images/sass.png" alt="sass" class="circle tooltipped" data-tooltip="SASS"
+                        id="skillimage">
+                    <img src="assets/images/bootstrap.jpg" alt="bootstrap" class="circle tooltipped"
+                        data-tooltip="Bootstrap" id="skillimage">
+                    <img src="assets/images/tailwind.png" alt="tailwind" class="circle tooltipped"
+                        data-tooltip="Tailwind CSS" id="skillimage">
+                </div>
+                <div class="skill-title col s12 m6 l3">
+                    Back End
+                    <img src="assets/images/rails.png" alt="rails" class="circle tooltipped"
+                        data-tooltip="Ruby on Rails" id="skillimage">
+                    <img src="assets/images/node.svg" alt="node" class="circle tooltipped" data-tooltip="Node.js"
+                        id="skillimage">
+                </div>
+                <div class="skill-title col s12 m6 l3">
+                    Infrastructure
+                    <img src="assets/images/git.png" alt="git" class="circle tooltipped" data-tooltip="Git"
+                        id="skillimage">
+                    <img src="assets/images/apiajax.png" alt="api" class="circle tooltipped"
+                        data-tooltip="RESTful API's" id="skillimage">
+                    <img src="assets/images/mysql.jpg" alt="MySQL" class="circle tooltipped" data-tooltip="MySQL"
+                        id="skillimage">
+                    <img src="assets/images/postgresql.png" alt="Postgres" class="circle tooltipped"
+                        data-tooltip="Postgres" id="skillimage">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!--                          PORTFOLIO                          -->
+    <div id="portfolio">
+        <div class='container'>
+            <div class='row'>
+                <div class='section-title'>
+                    PORTFOLIO
+                    <hr>
+                </div>
+            </div>
+
+            <div class='row project'>
+                <div class='col s12 m12 l9'>
+                    <img src="assets/images/weatherapp.png" alt="Weather App" width="850em" height="500em"
+                        class="project-image">
+                </div>
+                <div class='col s12 m12 l3 project-description'>
+                    <br>
+                    <b>Weather Finder</b><br>
+                    Put in a city & country to see get relevant weather informaton: temperature, humidity, wind, weather
+                    conditions <br> <br>
+                    <b>Technologies Used:</b> ReactJS, OpenWeatherMap API, CSS, Netlify <br> <br>
+                    <a href="https://laughing-benz-bf319b.netlify.com/" target="_blank">Live Site</a> |
+                    <a href="https://github.com/pujasodha/weather-react" target="_blank">Github</a>
+                </div>
+            </div>
+
+            <div class='row project'>
+                <div class='col s12 m12 l9'>
+                    <img src="assets/images/blog-rails.png" alt="Blog App" width="850em" height="500em"
+                        class="project-image">
+                </div>
+                <div class='col s12 m12 l3 project-description'> <b>BLOG</b><br>
+                    Standard blog CRUD application. You can post, edit, and delete articles. Next update will include
+                    authentication so users can have control on their own blog posts. <br> <br>
+                    <b>Technologies Used:</b> Ruby on Rails, Bootstrap, SQLite & Postgresql for production, Heroku <br>
+                    <br>
+                    <a href="https://arcane-everglades-90447.herokuapp.com" target="_blank">Live Site</a> |
+                    <a href="https://github.com/pujasodha/blog-on-rails" target="_blank">Github</a>
+                </div>
+            </div>
+
+            <div class='row project'>
+                <div class='col s12 m12 l9'>
+                    <img src="assets/images/people-media.png" alt="Find a Pal" width="850em" height="500em"
+                        class="project-image">
+                </div>
+                <div class='col s12 m12 l3 project-description'>
+                    <b>Find a Pal! </b> <br>
+                    An App that lets you post inquirers for a new study buddy, hoppy partner, or teammate. Includes
+                    authentication for the user to be able to submit their own posting.<br> Chat function is on its way!
+                    <br> <br>
+                    <b>Technologies Used:</b> Ruby on Rails, Devise Auth, Bootstrap, Postgresql, Heroku <br>
+                    <a href="https://murmuring-taiga-10334.herokuapp.com/" target="_blank">Live Site</a> |
+                    <a href="https://github.com/pujasodha/people-media" target="_blank">Github</a>
+                </div>
+            </div>
+
+            <div class='row project'>
+                <div class='col s12 m12 l9'>
+                    <img src="assets/images/letsprep.png" alt="Find a Pal" width="850em" height="500em"
+                        class="project-image">
+
+                </div>
+                <div class='col s12 m12 l3 project-description'> <br>
+                    <b>Let's Prep!</b>
+                    <br> An app to input your calorie goal for the week and receive meals tailored to your preferences.
+                    <br> <br>
+                    <b>Technologies Used:</b> JavaScript, MaterialieCSS, NodeJS, SQL, Edamom API, <br>
+                    <a href="https://afternoon-hollows-12505.herokuapp.com/" target="_blank">Live Site</a> |
+                    <a href="https://github.com/pujasodha/LetsPrep" target="_blank">Github</a>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- CONNECT -->
+        <div id="connect">
+            <div class='container'>
+                <div class='row'>
+                    <div class='section-title'>
+                        Let's Connect!
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s4 connect">
+                        <a href="mailto:pujasodha"><img src="assets/images/email.png" alt="Email Me" class="tooltipped"
+                                width="200em" height="200em" data-tooltip="Email Me!" id="skillimage"></a>
+                    </div>
+                    <div class="col s4 connect">
+                        <a href="https://www.linkedin.com/in/puja-sodha/"><img src="assets/images/linkedin.png"
+                                alt="LinkedIn" class="tooltipped" width="200em" height="200em" data-tooltip="LinkedIn"
+                                id="skillimage"></a>
+                    </div>
+                    <div class="col s4 connect">
+                        <a href="https://github.com/pujasodha"><img src="assets/images/github.png" alt="Github"
+                                class="tooltipped" width="200em" height="200em" data-tooltip="Github"
+                                id="skillimage"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
-
-
-    <script src=" https://code.jquery.com/jquery-3.3.1.js"
-        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-    <script src='./assets/javascript/app.js'></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+        <script src=" https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+        <script src='./assets/javascript/app.js'></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 </body>
 
 </html>

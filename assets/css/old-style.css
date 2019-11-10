@@ -43,7 +43,7 @@ h3 {
 
 h4 {
     /* margin: 30px 200px; */
-text-align: center;
+/* text-align: center;
 padding: 30px 0px;
 font-family: 'Open Sans Condensed',
 sans-serif;
@@ -54,59 +54,57 @@ sans-serif;
     text-align: center;
     margin: 0px 30px;
     /* font-weight: bold; */
-    font-size: 1.1em;
+/* font-size: 1.1em;
 
 }
 
 #skillstext {
     /* padding: 10px; */
-    /* text-align: center; */
-}
+/* text-align: center; */
+/* }
 
 .skills {
     /* margin-left: 100px; */
-    color: #545871;
+/* color: #545871;
     font-size: 1.2em;
 
-}
+} */
 
-#skillimage {
+/* #skillimage {
     height: 50px;
     width: 50px;
     /* text-align: center; */
-}
 
 
-#portfolio {
+
+/* #portfolio {
     background-color: #DADBE7;
     color: #c37e7b
-}
+} */
 
-.card {
+/* .card {
     height: auto;
     width: auto;
     margin: 30px;
-}
+} */
 
 /* .card-image {
     height: 300px
 } */
 
-#contact {
+/* #contact {
     color: #545871
-}
+} */
 
-#social {
+/* #connect {
     background-color: #DADBE7;
     color: #c37e7b;
 
-}
+} */
 
-.circle {
+/* .circle {
     height: 140px;
     margin: 30px auto;
     display: flex;
     align-items: center;
-}
-
-*/ */
+}  */
