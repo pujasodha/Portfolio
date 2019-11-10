@@ -29,46 +29,6 @@ nav ul a {
 }
 
 
-#typing {
-    overflow: hidden;
-    white-space: nowrap;
-    margin-left: 0;
-    letter-spacing: .15em;
-    animation: typing 3.5s steps(40, start) 1s 1 normal both,
-        blink-caret .75s step-end infinite;
-}
-
-@keyframes typing {
-    from {
-        width: 0
-    }
-
-    to {
-        width: 100%
-    }
-}
-
-#typing-2 {
-    overflow: hidden;
-    white-space: nowrap;
-    margin-left: 0;
-    letter-spacing: .10em;
-    animation: typing 3.5s steps(40, start) 1s 1 normal both,
-        blink-caret .75s step-end infinite;
-    animation-delay: 2.5s;
-}
-
-@keyframes typing {
-    from {
-        width: 0
-    }
-
-    to {
-        width: 100%
-    }
-}
-
-
 .quick-bio {
     display: flex;
     font-size: 2em;
@@ -82,6 +42,7 @@ nav ul a {
     text-align: center;
     font-weight: bolder;
     padding-top: 100px;
+    letter-spacing: .05em;
 }
 
 #about {
@@ -194,9 +155,45 @@ nav ul a {
         font-size: 1.5em;
         text-align: end;
     }
+   
 
-    /* .project-image {
-        width: 50em;
-        height: 30em;
-    } */
+    #typing {
+        overflow: hidden;
+        white-space: nowrap;
+        margin-left: 0;
+        letter-spacing: .15em;
+        animation: typing 3.5s steps(40, start) 1s 1 normal both,
+            blink-caret .75s step-end infinite;
+    }
+
+    @keyframes typing {
+        from {
+            width: 0
+        }
+
+        to {
+            width: 100%
+        }
+    }
+
+    #typing-2 {
+        overflow: hidden;
+        white-space: nowrap;
+        margin-left: 0;
+        letter-spacing: .10em;
+        animation: typing 3.5s steps(40, start) 1s 1 normal both,
+            blink-caret .75s step-end infinite;
+        animation-delay: 2.5s;
+    }
+
+    @keyframes typing {
+        from {
+            width: 0
+        }
+
+        to {
+            width: 100%
+        }
+    }
+
 }
