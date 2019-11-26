@@ -155,7 +155,7 @@ nav ul a {
         font-size: 1.5em;
         text-align: end;
     }
-   
+
 
     #typing {
         overflow: hidden;
@@ -166,7 +166,7 @@ nav ul a {
             blink-caret .75s step-end infinite;
     }
 
-    @keyframes typing {
+    /* @keyframes typing {
         from {
             width: 0
         }
@@ -194,6 +194,6 @@ nav ul a {
         to {
             width: 100%
         }
-    }
+    } */
 
 }
