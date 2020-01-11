@@ -1,7 +1,6 @@
 body {
     color: black;
-    font-family: 'Tajawal',
-        sans-serif;
+    font-family: 'Tajawal', sans-serif;
     background-image: linear-gradient(to bottom right, #f8f5fa, #f3e5f9);
 }
 
@@ -17,7 +16,6 @@ nav,
     background-color: white;
 }
 
-
 nav ul a {
     color: black;
 }
@@ -25,15 +23,13 @@ nav ul a {
 /* HOME PAGE */
 .main-header {
     margin: 20% auto 15% auto;
-
 }
-
 
 .quick-bio {
     display: flex;
     font-size: 2em;
-    justify-content: end;
-    letter-spacing: .05em;
+    justify-content: flex-end;
+    letter-spacing: 0.05em;
 }
 
 .section-title {
@@ -42,7 +38,7 @@ nav ul a {
     text-align: center;
     font-weight: bolder;
     padding-top: 100px;
-    letter-spacing: .05em;
+    letter-spacing: 0.05em;
 }
 
 #about {
@@ -58,7 +54,6 @@ nav ul a {
 .project {
     padding-bottom: 50px;
 }
-
 
 .about-text {
     font-size: 1.5em;
@@ -86,16 +81,12 @@ nav ul a {
     height: 100%;
     border: solid 2px black;
     overflow: hidden;
-    box-shadow: 0px 10px 24px 0px rgba(176, 176, 176, 1);
 }
 
 .project-description {
     font-size: 1.5em;
     text-align: start;
 }
-
-
-
 
 /* RESUME */
 .resume-title,
@@ -126,19 +117,18 @@ nav ul a {
 }
 
 #skills {
-    padding-bottom: 5%
+    padding-bottom: 5%;
 }
 
 #connect {
     padding-top: 9%;
-    padding-bottom: 18%
+    padding-bottom: 18%;
 }
 
 #connect-image {
     width: 6em;
     height: 6em;
 }
-
 
 /* SKILLS */
 
@@ -148,7 +138,7 @@ nav ul a {
     }
 
     .skills {
-        margin: 1em 10em
+        margin: 1em 10em;
     }
 
     .project-description {
@@ -156,23 +146,32 @@ nav ul a {
         text-align: end;
     }
 
-
     #typing {
         overflow: hidden;
         white-space: nowrap;
         margin-left: 0;
-        letter-spacing: .15em;
+        letter-spacing: 0.15em;
         animation: typing 3.5s steps(40, start) 1s 1 normal both,
-            blink-caret .75s step-end infinite;
+            blink-caret 0.75s step-end infinite;
     }
 
-    /* @keyframes typing {
+    @keyframes typing {
         from {
-            width: 0
+            width: 0;
         }
 
         to {
-            width: 100%
+            width: 100%;
+        }
+    }
+    @keyframes blink-caret {
+        from,
+        to {
+            border-color: black;
+        }
+
+        0% {
+            border-color: orange;
         }
     }
 
@@ -180,20 +179,30 @@ nav ul a {
         overflow: hidden;
         white-space: nowrap;
         margin-left: 0;
-        letter-spacing: .10em;
+        letter-spacing: 0.1em;
+        border: transparent;
         animation: typing 3.5s steps(40, start) 1s 1 normal both,
-            blink-caret .75s step-end infinite;
+            blink-caret 0.75s step-end infinite;
         animation-delay: 2.5s;
     }
 
     @keyframes typing {
         from {
-            width: 0
+            width: 0;
         }
 
         to {
-            width: 100%
+            width: 100%;
         }
-    } */
+    }
+    @keyframes blink-caret {
+        from,
+        to {
+            border-color: black;
+        }
 
+        0% {
+            border-color: orange;
+        }
+    }
 }
